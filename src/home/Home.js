@@ -3,7 +3,7 @@ import { fetchFrom } from "../utils/api";
 
 function Home() {
   const [config, setConfig] = useState({
-    url: "http://localhost:5000/cors-enabled",
+    url: "http://localhost:5555/cors-enabled",
   });
   const [result, setResult] = useState("Pending...");
 
